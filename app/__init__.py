@@ -10,6 +10,7 @@ config_values = {
     "prod": ProductionConfig,
 }
 
+
 def create_app(config_name='dev'):
     """
     Create App
