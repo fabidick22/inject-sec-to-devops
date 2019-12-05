@@ -27,7 +27,7 @@ jobs:
       run: python test_my_api.py
 
   build:
-    if: github.event_name == 'opened' || github.event_name == 'edited'
+    if: pull_request == 'opened' || pull_request == 'edited'
     name: BuildImage
     runs-on: ubuntu-latest
 #    needs: unittest
