@@ -30,7 +30,7 @@ jobs:
     needs: unittest
     steps:
     - name: Checkout
-      uses: echo "Soy un PR"
+      run: echo "Soy un PR"
 
 #    - name: Checkout
 #      uses: actions/checkout@v1
