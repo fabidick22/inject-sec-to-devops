@@ -3,7 +3,6 @@ from app import create_app
 import cProfile
 import pstats
 import io
-import time
 
 
 BOLD = '\033[1m'
