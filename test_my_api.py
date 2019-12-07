@@ -22,6 +22,7 @@ class MyTestCase(unittest.TestCase):
         body_fill_char = "#"
         title_size = 60
         subtitle_size = 5
+
         call_endpoint = self.methods.get(method, None)
         if not call_endpoint:
             raise Exception("Method not supported!")
