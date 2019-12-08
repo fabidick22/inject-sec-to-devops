@@ -31,7 +31,6 @@ def load_config(app_config: Flask, config_mode) -> None:
     :return:
     """
     if config_mode in config_values:
-        print("Config mode: {}".format(config_mode))
         app_config.config.from_object(config_values.get(config_mode))
     else:
         raise Exception("Configuration Mode Not Supported! ({})".format(config_mode))
