@@ -7,3 +7,5 @@ class DevelopmentConfig(Config):
     """
 
     DEBUG = True
+    TESTING = True
+    SECRET = "DevelopSecret123!!"  # pragma: allowlist secret
