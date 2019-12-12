@@ -13,8 +13,8 @@ class Calc(Resource):
         print(json_data)
         value_a = json_data.get("a", None)
         value_b = json_data.get("b", None)
-        # return eval("{} + {}".format(value_a, value_b))
-        return value_a + value_b
+        # return value_a + value_b
+        return eval("{} + {}".format(value_a, value_b))
 
 
 class Hello(Resource):
