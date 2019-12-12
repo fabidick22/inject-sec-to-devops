@@ -44,6 +44,20 @@ Confidant is an open source secret management service that provides user-friendl
 - At-rest encryption of versioned secrets (Confidant stores secrets in an append-only way in DynamoDB)
 - A user-friendly web interface for managing secrets
 
+`Bandit` (https://github.com/PyCQA/bandit)
+
+Bandit is a tool designed to find common security issues in Python code. To do this Bandit processes each file, builds an AST from it, and runs appropriate plugins against the AST nodes. Once Bandit has finished scanning all the files it generates a report.
+
+**Features:**
+- Projects may include a .bandit file that specifies command line arguments that should be supplied for that project. 
+- Allows users to write and register extensions for checks and formatters
+- Integration wir  pre-commit.
+
+`Safety` (https://github.com/pyupio/safety)
+
+Safety CI checks your commits and pull requests on GitHub for dependencies with known security vulnerabilities.
+
+
 `AWS Secrets Manager` (https://aws.amazon.com/es/secrets-manager/ )
 
 AWS Secrets Manager helps you protect secrets needed to access your applications, services, and IT resources. The service enables you to easily rotate, manage, and retrieve database credentials, API keys, and other secrets throughout their lifecycle.
@@ -150,6 +164,14 @@ The OWASP Zed Attack Proxy (ZAP) is one of the world’s most popular free secur
 `OpenVAS` (http://openvas.org/)
 
 OpenVAS is a full-featured vulnerability scanner. Its capabilities include unauthenticated testing, authenticated testing, various high level and low level Internet and industrial protocols, performance tuning for large-scale scans and a powerful internal programming language to implement any type of vulnerability test.
+
+`CCAT` (https://github.com/RhinoSecurityLabs/ccat)
+
+Cloud Container Attack Tool (CCAT) is a tool for testing security of container environments.
+
+`Spaghetti` (https://github.com/cyberheartmi9/Spaghetti)
+
+Spaghetti is an Open Source web application scanner, it is designed to find various default and insecure files, configurations, and misconfigurations. Spaghetti is built on python2.7 and can run on any platform which has a Python environment.
 
 
 ## JavaScript Ecosystem
@@ -281,3 +303,11 @@ The OWASP Zed Attack Proxy (ZAP) is one of the world’s most popular free secur
 `OpenVAS` (http://openvas.org/)
 
 OpenVAS is a full-featured vulnerability scanner. Its capabilities include unauthenticated testing, authenticated testing, various high level and low level Internet and industrial protocols, performance tuning for large-scale scans and a powerful internal programming language to implement any type of vulnerability test.
+
+`CCAT` (https://github.com/RhinoSecurityLabs/ccat)
+
+Cloud Container Attack Tool (CCAT) is a tool for testing security of container environments.
+
+`Spaghetti` (https://github.com/cyberheartmi9/Spaghetti)
+
+Spaghetti is an Open Source web application scanner, it is designed to find various default and insecure files, configurations, and misconfigurations. Spaghetti is built on python2.7 and can run on any platform which has a Python environment.
