@@ -16,7 +16,7 @@ pbr==5.4.4
 pre-commit==1.20.0
 PyYAML==5.2
 requests==2.22.0
-six==1.13.0
+six==1.14.0
 smmap2==2.0.5
 stevedore==1.31.0
 toml==0.10.0
