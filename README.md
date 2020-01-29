@@ -119,6 +119,7 @@ Clair is an open source project for the static analysis of vulnerabilities in ap
 
 <details><summary>`Anchore Engine` (https://github.com/anchore/anchore-engine)</summary>
 The Anchore Engine is an open source project that provides a centralized service for inspection, analysis and certification of container images. The Anchore engine is provided as a Docker container image that can be run standalone, or within an orchestration platform such as Kubernetes, Docker Swarm, Rancher, Amazon ECS, and other container orchestration platforms.
+</details>
 
 **Features:**
 - Helm Chart for installing Anchore Engine in Kubernetes.
