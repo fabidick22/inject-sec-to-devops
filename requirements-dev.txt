@@ -17,7 +17,7 @@ pre-commit==1.21.0
 PyYAML==5.3
 requests==2.22.0
 six==1.14.0
-smmap2==2.0.5
+smmap2==3.0.0
 stevedore==1.31.0
 toml==0.10.0
 urllib3==1.25.8
