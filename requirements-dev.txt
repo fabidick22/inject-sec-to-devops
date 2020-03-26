@@ -3,7 +3,7 @@ bandit==1.6.2
 certifi==2019.11.28
 cfgv==2.0.1
 chardet==3.0.4
-detect-secrets==0.13.0
+detect-secrets==0.13.1
 gitdb2==2.0.6
 GitPython==3.0.5
 identify==1.4.11
