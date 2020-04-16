@@ -23,7 +23,7 @@ jobs:
     # Runs a single command using the runners shell
     - name: Run a one-line script
       env:
-        VALUES: ${VALOR2}
+        VALUES: 'a'
       run: |
         echo $VALOR2
         echo ${VALOR2}
