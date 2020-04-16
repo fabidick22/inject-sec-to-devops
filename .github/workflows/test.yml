@@ -27,6 +27,5 @@ jobs:
       run: |
         echo $VALOR2
         echo ${VALOR2}
-        echo ${{VALOR2}}
         echo $VALUES
 
