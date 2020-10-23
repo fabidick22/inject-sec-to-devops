@@ -5,7 +5,7 @@ cfgv==3.1.0
 chardet==3.0.4
 detect-secrets==0.13.0
 gitdb2==4.0.1
-GitPython==3.0.5
+GitPython==3.1.11
 identify==1.4.11
 idna==2.9
 importlib-metadata==1.4.0
