@@ -21,5 +21,5 @@ smmap2==2.0.5
 stevedore==1.32.0
 toml==0.10.0
 urllib3==1.25.8
-virtualenv==16.7.9
+virtualenv==20.15.0
 zipp==3.1.0
