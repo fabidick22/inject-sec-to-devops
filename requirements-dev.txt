@@ -6,7 +6,7 @@ chardet==3.0.4
 detect-secrets==0.13.0
 gitdb2==4.0.1
 GitPython==3.0.5
-identify==1.4.11
+identify==2.5.22
 idna==2.9
 importlib-metadata==1.4.0
 importlib-resources==1.0.2
